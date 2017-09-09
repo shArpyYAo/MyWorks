@@ -50,7 +50,7 @@ $(document).ready(function()
 {
    var params = 
     {
-        test:["dist/goddesC.jpg","dist/joker.jpg","dist/noir.jpg","dist/queen.jpg"],
+        test:["img/goddesC.jpg","img/joker.jpg","img/noir.jpg","img/queen.jpg"],
         spriteI:1,
         spriteJ:0,
         spriteK:0,
