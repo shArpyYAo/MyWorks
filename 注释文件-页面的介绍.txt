@@ -1,0 +1,3 @@
+index.html是图片一块一块消失的幻灯片效果
+welcome.jsp是火焰字特效
+login.html是登录界面
