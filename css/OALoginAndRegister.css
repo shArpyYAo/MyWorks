@@ -1,3 +1,8 @@
+/*html{
+	height: 100%;
+	border: 1px solid red;
+	position: relative;
+}*/
 body:after
         {
             content:'';
@@ -11,13 +16,15 @@ body:after
             border-top: 1px solid black;
             border-right: 1px solid black;
             border-left: 1px solid black;
-            zoom:1;
+           position: absolute;
             margin: 0;
             background-color:lightgreen;
+            height: 100%;
         }
         #artical
         {
             width: auto;
+            height: 100%;
             /*height: 800px;*/
             /*border: 1px solid #c0c0c0;*/
             margin: 0 auto;
@@ -26,7 +33,7 @@ body:after
         #head
         {
             width: 28%;
-            height: 400px;
+            height: 36%;
             border-top-left-radius: 0.4em 0.4em;
 			border-top-right-radius: 0.4em 0.4em;
 			border-bottom-right-radius: 0.4em 0.4em;
@@ -66,7 +73,7 @@ body:after
         #nameTextLogin,#passwordTextLogin,#nameTextRegister,#passwordTextRegister,#emailTextRegister,
         #passwordTextRegisterComfirm
         { 
-        	width:300px;
+        	width:78%;
         	height: 30px;
         	margin-left: 30px;
             margin-top: 50px;
@@ -112,7 +119,7 @@ body:after
         }
         #LoginButton,#RegisterButton
         {
-        	width: 320px;
+        	width: 84%;
         	height: 50px;
         	margin-left: 30px;
         	margin-top: 310px;

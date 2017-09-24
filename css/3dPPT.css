@@ -1,0 +1,103 @@
+body,ul,ol
+{
+	margin: 0;
+	padding: 0;
+}
+li
+{
+	list-style: none;
+}
+.wrap
+{
+	width: 500px;
+	margin: 100px auto 0;
+}
+#picList
+{
+	width: 500px;
+	height: 300px;
+	-webkit-perspective: 800px;
+	-moz-perspective: 800px;
+}
+#picList li
+{
+	width: 50px;
+	height: 300px;
+	position: relative;
+	-webkit-transform-style:preserve-3d;
+	-moz-transform-style:preserve-3d;
+	-webkit-transform-origin: center center -150px; 
+	float: left;
+}
+#picList a
+{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+#picList li a:nth-of-type(1)
+{
+	background: url(../img/joker.jpg) no-repeat;
+}
+#picList li a:nth-of-type(2)
+{
+	background: url(../img/navi.jpg) no-repeat;
+	top: -300px;
+	-webkit-transform-origin: bottom;
+	-webkit-transform: rotateX(90deg);
+}
+#picList li a:nth-of-type(3)
+{
+	background: url(../img/noir.jpg) no-repeat;
+	-webkit-transform: translateZ(-300px) rotateX(180deg);
+	
+}
+#picList li a:nth-of-type(4)
+{
+	background: url(../img/panther.jpg) no-repeat;
+	top: 300px;
+	-webkit-transform-origin: top;
+	-webkit-transform: rotateX(-90deg);
+}
+#picList li span
+{
+	position: absolute;
+	width: 300px;
+	height: 300px;
+	background: #000000;
+}
+#picList li span:nth-of-type(1)
+{
+	-webkit-transform-origin: left;
+	-webkit-transform: rotateY(90deg);
+	left: 0;
+}
+#picList li span:nth-of-type(2)
+{
+	-webkit-transform-origin: right;
+	-webkit-transform: rotateY(-90deg);
+	right: 0;
+}
+#btns
+{
+	float: right;
+	padding: 10px 0;
+}
+#btns li
+{
+	width: 20px;
+	height: 20px;
+	background: #000;
+	color: #fff;
+	border-radius: 50%;
+	font: 16px/20px arial;
+	float: left;
+	margin: 0 5px;
+	text-align: center;
+}
+#btns .active
+{
+	background: #FFA500;
+}

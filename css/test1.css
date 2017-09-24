@@ -1,0 +1,366 @@
+body{
+    /*perspective: -100px;*/
+    /*-webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;*/
+    /*animation: test 10s infinite;*/
+}
+
+.box1,.box2{
+    width:600px;
+    height: 420px;
+    margin-top: 50px;
+    margin-left: 200px;
+    padding: 10px;
+    position:relative;
+    display: inline-block;
+    background: -webkit-gradient(linear, 0% 20%, 0% 1000%, from(#fff), to(#fff), color-stop(.1,#f3f3f3));
+    border: 1px solid #ccc;
+    -webkit-box-shadow: 0px 3px 30px rgba(0, 0, 0, 0.1) inset;
+    -webkit-border-bottom-right-radius: 6px 50px;    
+    z-index: 5;
+    /*animation: test 0.5s, test0 0.5s 0.5s;
+    animation-fill-mode: forwards;*/
+}
+@-webkit-keyframes test {
+    from {
+        transform: rotatey(0deg);
+    }
+    to {
+        transform: rotatey(190deg);
+    }
+   /* 0%{transform: rotatey(0deg);}
+    50%{transform: rotatey(90deg);}
+    60%{}
+    100%{}*/
+}
+@-webkit-keyframes test0 {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(6);
+    }
+}
+
+.box2
+{
+    margin-top: 20px;
+    /*animation: test3 0.5s;
+    animation-fill-mode: forwards;*/
+}
+@-webkit-keyframes test3 {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(0.9);
+        z-index: 1;
+    }
+}
+
+/*.box1:before,.box2:before{
+    content: '';
+    width: 50px;
+    height: 100px;
+    position:absolute;
+    bottom:0; right:0;
+    -webkit-box-shadow: 20px 20px 10px rgba(0, 0, 0, 0.1);
+    z-index:-1;
+    -webkit-transform: translate(-35px,-40px)
+                        skew(0deg,30deg)
+                        rotate(-25deg);
+}*/
+
+/*.box1:after,.box2:after{
+    content: '';
+    width: 100px;
+    height: 100px;
+    top:0; left:0;
+    position:absolute;
+    display: inline-block;
+    z-index:-1;
+    -webkit-box-shadow: -10px -10px 10px rgba(0, 0, 0, 0.2);
+    -webkit-transform: rotate(2deg)
+                        translate(20px,25px)
+                        skew(20deg);
+}*/
+
+.box1 img,.box2 img{
+    width: 500px;
+    height: 300px;
+    margin-left: 60px;
+    margin-top: 1px;
+    z-index: 5;
+}
+
+p{ 
+    margin-left: 60px;
+    text-align: justify;
+    z-index: 5;
+}
+
+h1{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 5px; 
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+    z-index: 5;
+}
+@-webkit-keyframes test4 
+{
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+#draw-target36 div
+{
+    
+    animation: test2 0.3s;
+    animation-fill-mode: forwards ;
+}
+#draw-target37 div
+{
+    
+    animation: test2 0.3s 0.3s;
+    animation-fill-mode: forwards ;
+}
+#draw-target38 div
+{
+    
+    animation: test2 0.3s 0.6s;
+    animation-fill-mode: forwards ;
+}
+#draw-target39 div
+{
+    
+    animation: test2 0.3s 0.9s;
+    animation-fill-mode: forwards ;
+}
+#draw-target40 div
+{
+    
+    animation: test2 0.3s 1.2s;
+    animation-fill-mode: forwards ;
+}
+#draw-target41 div
+{
+    
+    animation: test2 0.3s 1.5s;
+    animation-fill-mode: forwards ;
+}
+#draw-target42 div
+{
+    
+    animation: test2 0.3s 1.8s;
+    animation-fill-mode: forwards ;
+}
+#draw-target43 div
+{
+    
+    animation: test2 0.3s 2.1s;
+    animation-fill-mode: forwards ;
+}
+#draw-target44 div
+{
+    
+    animation: test2 0.3s 2.4s;
+    animation-fill-mode: forwards ;
+}
+#draw-target45 div
+{
+    
+    animation: test2 0.3s 2.7s;
+    animation-fill-mode: forwards ;
+}
+#draw-target46 div
+{
+    
+    animation: test2 0.3s 3s;
+    animation-fill-mode: forwards ;
+}
+#draw-target47 div
+{
+    
+    animation: test2 0.3s 3.3s;
+    animation-fill-mode: forwards ;
+}
+/**********************************************************************/
+#draw-target24 div
+{
+    
+    animation: test2 0.3s 5.3s;
+    animation-fill-mode: forwards ;
+}
+#draw-target25 div
+{
+    
+    animation: test2 0.3s 5.6s;
+    animation-fill-mode: forwards ;
+}
+#draw-target26 div
+{
+    
+    animation: test2 0.3s 5.9s;
+    animation-fill-mode: forwards ;
+}
+#draw-target27 div
+{
+    
+    animation: test2 0.3s 6.2s;
+    animation-fill-mode: forwards ;
+}
+#draw-target28 div
+{
+    
+    animation: test2 0.3s 6.5s;
+    animation-fill-mode: forwards ;
+}
+#draw-target29 div
+{
+    
+    animation: test2 0.3s 6.8s;
+    animation-fill-mode: forwards ;
+}
+#draw-target30 div
+{
+    
+    animation: test2 0.3s 7.1s;
+    animation-fill-mode: forwards ;
+}
+#draw-target31 div
+{
+    
+    animation: test2 0.3s 7.4s;
+    animation-fill-mode: forwards ;
+}
+#draw-target32 div
+{
+    
+    animation: test2 0.3s 7.7s;
+    animation-fill-mode: forwards ;
+}
+#draw-target33 div
+{
+    
+    animation: test2 0.3s 8s;
+    animation-fill-mode: forwards ;
+}
+#draw-target34 div
+{
+    
+    animation: test2 0.3s 8.3s;
+    animation-fill-mode: forwards ;
+}
+#draw-target35 div
+{
+    
+    animation: test2 0.3s 8.6s;
+    animation-fill-mode: forwards ;
+}
+
+/**********************************************************************/
+#draw-target12 div
+{
+    
+    animation: test2 0.3s 10.6s;
+    animation-fill-mode: forwards ;
+}
+#draw-target13 div
+{
+    
+    animation: test2 0.3s 10.9s;
+    animation-fill-mode: forwards ;
+}
+#draw-target14 div
+{
+    
+    animation: test2 0.3s 11.2s;
+    animation-fill-mode: forwards ;
+}
+#draw-target15 div
+{
+    
+    animation: test2 0.3s 11.5s;
+    animation-fill-mode: forwards ;
+}
+#draw-target16 div
+{
+    
+    animation: test2 0.3s 11.8s;
+    animation-fill-mode: forwards ;
+}
+#draw-target17 div
+{
+    
+    animation: test2 0.3s 12.1s;
+    animation-fill-mode: forwards ;
+}
+#draw-target18 div
+{
+    
+    animation: test2 0.3s 12.4s;
+    animation-fill-mode: forwards ;
+}
+#draw-target19 div
+{
+    
+    animation: test2 0.3s 12.7s;
+    animation-fill-mode: forwards ;
+}
+#draw-target20 div
+{
+    
+    animation: test2 0.3s 13s;
+    animation-fill-mode: forwards ;
+}
+#draw-target21 div
+{
+    
+    animation: test2 0.3s 13.3s;
+    animation-fill-mode: forwards ;
+}
+#draw-target22 div
+{
+    
+    animation: test2 0.3s 13.6s;
+    animation-fill-mode: forwards ;
+}
+#draw-target23 div
+{
+    
+    animation: test2 0.3s 13.9s;
+    animation-fill-mode: forwards ;
+}
+
+/**********************************************************************/
+
+/********************************************************************/
+@-webkit-keyframes test2 {
+    from {
+        opacity:1;
+    }
+    to {
+        opacity:0;
+    }
+}
+@-webkit-keyframes test1 {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
